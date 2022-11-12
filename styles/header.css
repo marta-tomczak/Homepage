@@ -1,0 +1,40 @@
+.header {
+  padding: var(--section-space);
+}
+.header__container {
+  display: flex;
+}
+.header__container > *:not(:first-child) {
+  margin-left: 5rem;
+}
+.header__image-wrapper {
+  width: 100%;
+  font-size: 5em;
+}
+.header__image {
+  border-radius: 12%;
+  font-size: 4rem;
+}
+.navigation {
+  width: 100%;
+}
+.navigation__header {
+  font-size: 3.8rem;
+  background: linear-gradient(
+    to right,
+    rgb(103, 18, 103),
+    rgb(195, 95, 195),
+    rgb(156, 142, 160)
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.navigation__item {
+  padding: 0.5rem;
+}
+.navigation__item:not(:first-child) {
+  margin-top: 0.5rem;
+}
+.navigation__button-wrapper .button:not(:first-child) {
+  margin-left: 0.5rem;
+}

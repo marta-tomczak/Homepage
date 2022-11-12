@@ -1,0 +1,40 @@
+:root {
+  font-size: 15px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+ul {
+  padding-left: 0px;
+}
+li {
+  list-style: none;
+  width: 100%;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  display: block;
+  width: 100%;
+}
+table,
+td,
+tr,
+th {
+  border: 2px solid whitesmoke;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}

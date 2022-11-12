@@ -1,0 +1,9 @@
+.clients {
+}
+.clients__list {
+  display: flex;
+}
+.clients__opinion {
+  display: flex;
+  width: 100%;
+}
