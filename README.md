@@ -17,7 +17,7 @@ Now, I can specify such technologies and conventions as:
 - Markdown
 
 #### Project Status
-Project is: **In progress**.
+**In progress**.
 
 
 
