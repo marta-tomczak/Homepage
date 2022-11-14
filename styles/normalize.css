@@ -10,6 +10,9 @@ html,
 body {
   padding: 0px;
   margin: 0px;
+  background-image: url("/assets/Blue_background.png");
+  font-family: sans-serif;
+  font-size: 22px;
 }
 body {
   font-size: 1.6rem;
@@ -37,4 +40,6 @@ th {
   border: 2px solid whitesmoke;
   border-collapse: collapse;
   margin-bottom: 16px;
+  margin: 10px;
+  padding: 20px;
 }
