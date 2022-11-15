@@ -1,6 +1,6 @@
 
 # 📂Homepage
-Hi! My name is Marta and I want to show you my first self-designed website.
+Hi! My name is Marta and I want to show you my first self-designed website. <br>
 https://marta-tomczak.github.io/Homepage/
 
 ## 📎Description:
