@@ -1,13 +1,14 @@
 const welcome = () => {
   console.log("Witaj!");
 };
+
 const toggleBackground = () => {
   const body = document.body;
-  const themeName = document.querySelector(".js-theme-name");
-  const bodyIsDark = body.classList.contains("dark");
+  const sienaText = document.querySelector(".js-siena-text");
+  const NewBackground = body.classList.contains("new-background");
 
-  body.classList.toggle("dark");
-  themeName.innerText = bodyIsDark ? "inne" : "poprzednie";
+  body.classList.toggle("new-background");
+  sienaText.innerText = NewBackground ? "" : "Pokaż";
 };
 const toggleImage = () => {
   const image = document.querySelector(".js-image");
@@ -15,7 +16,9 @@ const toggleImage = () => {
   const imageIsActive = image.classList.contains("section__image--invisible");
 
   image.classList.toggle("section__image--invisible");
-  imageButton.innerText = imageIsActive ? "Pokaż zdjęcie" : "Ukryj zdjęcie";
+  imageButton.innerText = imageIsActive
+    ? "Pokaż moje zdjęcie z wakacji w Sienie"
+    : "Ukryj moje zdjęcie z wakacji w Sienie";
 };
 const init = () => {
   const themeNameButton = document.querySelector(".js-theme-name-button");
