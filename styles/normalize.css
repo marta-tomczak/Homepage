@@ -37,13 +37,25 @@ img {
 table,
 tr,
 th {
-  border: 2px solid rgb(115, 114, 114);
   border-collapse: collapse;
   margin-bottom: 36px;
   margin: 10px;
   padding: 10px;
-  width: 100%;
-  overflow-x: auto;
+}
+thead tr > * {
+  border-top: 4px solid teal;
+  border-left: 4px solid teal;
+}
+thead tr > *:last-child {
+  border-right: 4px solid teal;
+}
+tbody tr > * {
+  border-top: 4px solid teal;
+  border-left: 4px solid teal;
+  border-bottom: 4px solid teal;
+}
+tbody tr > *:last-child {
+  border-right: 4px solid teal;
 }
 td {
   margin: 42px;

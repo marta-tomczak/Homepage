@@ -20,3 +20,9 @@
 .button:hover {
   background-color: hsl(194, 76%, 31%);
 }
+
+@media (max-width: 767px), (min-width: 1200px) {
+  .image {
+    width: 50%;
+  }
+}

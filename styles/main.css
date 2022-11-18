@@ -16,9 +16,9 @@
   text-decoration: underline;
 }
 .logos {
-  margin: 10px;
-  text-align: right;
-  margin-right: 280px;
+  width: calc(50% - 5rem);
+  margin: 10px unset 10px auto;
+  text-align: left;
 }
 .new-background {
   color: aqua;

@@ -12,6 +12,7 @@
     rgb(76, 191, 133),
     rgb(156, 142, 160)
   );
+  background-clip: text;
   -webkit-background-clip: text;
 }
 .header__container {
@@ -42,6 +43,8 @@
     whitesmoke,
     rgb(108, 106, 108)
   );
+  background-clip: text;
+  -moz-background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -51,6 +54,9 @@
 }
 .navigation__item:not(:first-child) {
   margin-top: 0.5rem;
+}
+.navigation__button-wrapper {
+  display: flex;
 }
 .navigation__button-wrapper .button:not(:first-child) {
   margin-left: 0.5rem;
@@ -115,4 +121,25 @@
 
 .section__title--teacher {
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .header__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__container > *:not(:first-child) {
+    margin-left: unset;
+  }
+  .navigation__header {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .navigation__button-wrapper {
+    flex-direction: column;
+  }
+  .navigation__button-wrapper .button:not(:first-child) {
+    margin-left: unset;
+    margin-top: 0.5rem;
+  }
 }
