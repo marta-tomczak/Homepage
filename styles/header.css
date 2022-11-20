@@ -37,12 +37,7 @@
 }
 .navigation__header {
   font-size: 5.8rem;
-  background: linear-gradient(
-    to right,
-    hsl(194, 45%, 53%),
-    whitesmoke,
-    rgb(108, 106, 108)
-  );
+  background: linear-gradient(to right, teal, rgb(0, 28, 28));
   background-clip: text;
   -moz-background-clip: text;
   -webkit-background-clip: text;
@@ -121,6 +116,9 @@
 
 .section__title--teacher {
   text-align: center;
+}
+.section__image--invisible {
+  opacity: 0;
 }
 
 @media (max-width: 600px) {

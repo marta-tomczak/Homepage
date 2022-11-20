@@ -1,0 +1,7 @@
+.client__list {
+  display: flex;
+}
+
+.client__container {
+  padding: 10 px;
+}

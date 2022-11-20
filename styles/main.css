@@ -10,20 +10,19 @@
   width: 100%;
   box-sizing: border-box;
 }
-
 .contact {
   color: hsl(194, 45%, 53%);
   text-decoration: underline;
 }
 .logos {
-  width: calc(50% - 5rem);
-  margin: 10px unset 10px auto;
+  width: calc(50% - 2.5rem);
+  margin: 10px 0 10px auto;
   text-align: left;
 }
 .new-background {
-  color: aqua;
+  color: rgb(1, 8, 8);
+  background-color: rgb(242, 227, 213);
 }
-
 .footer {
   text-align: center;
   color: black;
