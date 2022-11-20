@@ -10,6 +10,12 @@ const toggleBackground = () => {
   body.classList.toggle("new-background");
   sienaText.innerText = NewBackground ? "" : "Pokaż";
 };
+
+/*
+const image = document.querySelector(".header__image");
+image.classList.toggle = "/assets/S.Polo.jpg";
+*/
+
 const toggleImage = () => {
   const image = document.querySelector(".js-image");
   const imageButton = document.querySelector(".js-image-button");
