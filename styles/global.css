@@ -16,13 +16,8 @@
   border-radius: 1.2rem;
   cursor: pointer;
   transition: 250ms ease-in-out background-color;
+  margin-top: 40px;
 }
 .button:hover {
   background-color: hsl(194, 76%, 31%);
-}
-
-@media (max-width: 767px), (min-width: 1200px) {
-  .image {
-    width: 50%;
-  }
 }

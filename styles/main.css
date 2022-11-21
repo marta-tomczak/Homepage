@@ -14,5 +14,7 @@
   text-align: center;
   color: black;
   background-color: teal;
-  padding: 30px;
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 18px;
 }
