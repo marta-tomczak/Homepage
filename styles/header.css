@@ -6,14 +6,6 @@
   padding: 10px;
   margin-left: 113px;
   font-size: 38px;
-  background: linear-gradient(
-    to right,
-    rgb(26, 4, 115),
-    rgb(76, 191, 133),
-    rgb(156, 142, 160)
-  );
-  background-clip: text;
-  -webkit-background-clip: text;
 }
 .header__container {
   display: flex;
@@ -64,8 +56,8 @@
 .table__cell--header {
   background: linear-gradient(
     to right,
-    rgb(167, 173, 173),
-    hsl(194, 45%, 53%),
+    rgb(0, 28, 28),
+    teal,
     rgb(167, 173, 173)
   );
   color: whitesmoke;
@@ -81,7 +73,7 @@
 }
 
 .article__list__item {
-  color: hsl(194, 45%, 53%);
+  color: teal;
   text-decoration: underline;
 }
 

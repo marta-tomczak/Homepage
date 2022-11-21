@@ -6,9 +6,7 @@ const toggleBackground = () => {
   const body = document.body;
   const sienaText = document.querySelector(".js-siena-text");
   const NewBackground = body.classList.contains("new-background");
-
   body.classList.toggle("new-background");
-  sienaText.innerText = NewBackground ? "" : "Pokaż";
 };
 
 /*
@@ -26,6 +24,7 @@ const toggleImage = () => {
     ? "Pokaż moje zdjęcie z wakacji w Sienie"
     : "Ukryj moje zdjęcie z wakacji w Sienie";
 };
+
 const init = () => {
   const themeNameButton = document.querySelector(".js-theme-name-button");
   const imageButton = document.querySelector(".js-image-button");
@@ -36,5 +35,4 @@ const init = () => {
 
   welcome();
 };
-
 init();

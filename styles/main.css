@@ -1,5 +1,5 @@
 .contact {
-  color: hsl(194, 45%, 53%);
+  color: teal;
   text-decoration: underline;
 }
 .logos {
@@ -8,12 +8,11 @@
   text-align: left;
 }
 .new-background {
-  color: rgb(1, 8, 8);
   background-color: rgb(242, 227, 213);
 }
 .footer {
   text-align: center;
   color: black;
-  background-color: hsl(194, 61%, 43%);
+  background-color: teal;
   padding: 30px;
 }
