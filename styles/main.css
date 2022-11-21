@@ -1,15 +1,3 @@
-.image {
-  width: 553px;
-  height: 354px;
-  margin: 12px auto;
-  border-radius: 12%;
-  object-fit: cover;
-  margin-bottom: 16px;
-  margin-left: 15px;
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-}
 .contact {
   color: hsl(194, 45%, 53%);
   text-decoration: underline;
