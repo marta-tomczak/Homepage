@@ -12,6 +12,7 @@ body {
   margin: 0px;
   font-family: sans-serif;
   font-size: 19px;
+  text-align: center;
 }
 ul {
   padding-left: 0px;
@@ -35,6 +36,7 @@ th {
   margin-bottom: 36px;
   margin: 10px;
   padding: 10px;
+  text-align: center;
 }
 thead tr > * {
   border-top: 4px solid teal;
