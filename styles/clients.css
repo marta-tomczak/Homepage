@@ -1,7 +1,22 @@
 .client__list {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .client__container {
-  padding: 10px;
+  padding: 5px;
+}
+
+.clients__opinion {
+  border: 2px solid rgb(10, 87, 87);
+  outline-style: double;
+  background-color: rgb(8, 168, 168);
+  padding: 0.8rem 1.6rem;
+  color: black;
+  box-shadow: px 2px 6px rgba(0, 0, 0, 0.25);
+  border-radius: 1.2rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out background-color;
+  margin-top: 10px;
 }

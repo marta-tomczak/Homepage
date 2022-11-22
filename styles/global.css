@@ -10,12 +10,12 @@
 /* BUTTON */
 .button {
   padding: 0.8rem 1.6rem;
-  background-color: teal;
+  background-color: rgb(8, 168, 168);
   color: black;
   box-shadow: px 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 1.2rem;
   cursor: pointer;
-  transition: 250ms ease-in-out background-color;
+  transition: 0.4s ease-in-out background-color;
   margin-top: 40px;
 }
 .button:hover {
