@@ -1,12 +1,21 @@
 .contact {
-  color: teal;
+  color: black;
   text-decoration: underline;
 }
 .logos {
-  width: calc(50% - 2.5rem);
-  margin: 10px 0 10px auto;
-  text-align: left;
+  text-align: center;
+  color: black;
+  background-color: rgb(8, 168, 168);
+  padding: 40px;
+  line-height: 1.5;
+  font-size: 18px;
 }
+.icons {
+  display: grid;
+  grid-template-rows: 100px 200px 300px;
+  max-width: 30px;
+}
+
 .new-background {
   background-color: rgb(242, 227, 213);
 }
@@ -18,3 +27,9 @@
   line-height: 1.5;
   font-size: 18px;
 }
+
+/*  
+width: calc(50% - 2.5rem);
+margin: 10px 0 10px auto;
+text-align: left;
+*/
