@@ -76,18 +76,6 @@
 .article__list {
   display: flex;
 }
-/* FLEX */
-.flex__container--image {
-  display: flex;
-  padding: 10px;
-  width: 50%;
-}
-
-.flex__container--text {
-  display: flex;
-  padding: 10px;
-  width: 50%;
-}
 
 /* SECTION */
 .section__website--pages {
@@ -133,7 +121,7 @@
     justify-content: center;
   }
   .header__image {
-    width: 50%;
+    width: 100%;
   }
   .table-wrapper {
     width: 30%;
