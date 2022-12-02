@@ -3,33 +3,47 @@
   text-decoration: underline;
 }
 .logos {
-  text-align: center;
+  color: black;
+  background-color: rgb(9, 124, 124);
+  padding: 40px;
+  line-height: 1.5;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.logo__down {
   color: black;
   background-color: rgb(8, 168, 168);
   padding: 40px;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: sans-serif;
 }
 .icons {
   display: grid;
   grid-template-rows: 100px 200px 300px;
   max-width: 30px;
+  margin: 10px;
 }
 
 .new-background {
-  background-color: rgb(242, 227, 213);
+  background: radial-gradient(
+    circle,
+    rgb(212, 212, 212) 3%,
+    rgba(245, 242, 242, 1) 80%
+  );
 }
 .footer {
   text-align: center;
   color: black;
-  background-color: rgb(8, 168, 168);
+  background-color: rgb(9, 124, 124);
   padding: 10px;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 30px;
+  margin-top: 10px;
 }
-
-/*  
-width: calc(50% - 2.5rem);
-margin: 10px 0 10px auto;
-text-align: left;
-*/

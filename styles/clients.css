@@ -9,8 +9,9 @@
 }
 
 .clients__opinion {
-  border: 2px solid rgb(10, 87, 87);
-  outline-style: double;
+  border: 0.4px solid rgb(10, 87, 87);
+  outline-style: inset;
+  outline-color: rgb(10, 87, 87);
   background-color: rgb(8, 168, 168);
   padding: 0.8rem 1.6rem;
   color: black;
@@ -19,6 +20,8 @@
   cursor: pointer;
   transition: 0.4s ease-in-out background-color;
   margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .clients__opinion:hover {
@@ -29,4 +32,5 @@
 .name {
   display: flex;
   align-items: flex-end;
+  margin-top: 55px;
 }
