@@ -157,4 +157,6 @@
     text-align: center;
     flex-direction: column;
   }
+  .logo__down {
+  padding: 20px;
 }
