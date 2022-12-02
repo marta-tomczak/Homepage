@@ -158,5 +158,6 @@
     flex-direction: column;
   }
   .logo__down {
-  padding: 20px;
+    padding: 20px;
+  }
 }
