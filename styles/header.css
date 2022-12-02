@@ -160,4 +160,8 @@
   .logo__down {
     padding: 20px;
   }
+  .name {
+    display: flex;
+    justify-content: center;
+  }
 }
