@@ -132,7 +132,29 @@
   .table-wrapper {
     width: 30%;
   }
-  .table-wrapper {
-    width: 80%;
+  .navigation__header {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .navigation__link {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button {
+    padding: 0.8rem 1.6rem;
+    background-color: rgb(8, 168, 168);
+    color: black;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    margin-top: 40px;
+    border: 0.4px solid rgb(10, 87, 87);
+    outline-style: inset;
+    outline-color: rgb(10, 87, 87);
+    margin: 20px;
+  }
+  .clients__opinion {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
   }
 }
