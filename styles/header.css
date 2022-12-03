@@ -40,6 +40,7 @@
 .navigation__item {
   padding: 0.5rem;
   display: flex;
+  justify-content: center;
 }
 .navigation__item:not(:first-child) {
   margin-top: 0.5rem;
@@ -107,14 +108,13 @@
     justify-content: center;
   }
   .header__container > *:not(:first-child) {
-    margin-left: unset;
+    margin-top: 0, 5rem;
   }
   .navigation__header {
     font-size: 3rem;
     text-align: center;
   }
   .navigation__link {
-    text-align: center;
     display: flex;
     display: block;
   }
