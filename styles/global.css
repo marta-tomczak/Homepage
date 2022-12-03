@@ -19,6 +19,7 @@
   outline-style: inset;
   outline-color: rgb(10, 87, 87);
   margin: 20px;
+  display: flex;
 }
 .button:hover {
   background-color: rgb(9, 128, 128);
