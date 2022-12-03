@@ -142,7 +142,6 @@
     border: 0.4px solid rgb(10, 87, 87);
     outline-style: inset;
     outline-color: rgb(10, 87, 87);
-    display: flex;
   }
   .clients__opinion {
     display: flex;
