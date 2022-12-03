@@ -116,6 +116,7 @@
   .navigation__link {
     text-align: center;
     display: flex;
+    display: block;
   }
   .navigation__button-wrapper {
     flex-direction: column;
