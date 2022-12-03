@@ -159,7 +159,7 @@
     flex-direction: column;
   }
   .logo__down {
-    font-size: 10px;
+    font-size: 15px;
   }
   .name {
     display: flex;
@@ -167,6 +167,6 @@
     align-items: center;
   }
   .footer {
-    font-size: 10px;
+    font-size: 15px;
   }
 }
