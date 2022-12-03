@@ -10,9 +10,6 @@
 .header__container {
   display: flex;
 }
-.header__container > *:not(:first-child) {
-  margin-left: 5rem;
-}
 .header__image-wrapper {
   width: 100%;
   font-size: 2em;
