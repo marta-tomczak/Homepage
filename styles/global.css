@@ -1,5 +1,5 @@
 :root {
-  --section-space: 3rem;
+  --section-space: 1rem;
 }
 .container {
   max-width: 1440px;
@@ -23,5 +23,5 @@
 }
 .button:hover {
   background-color: rgb(9, 128, 128);
-  transition: 0.4s ease-in-out background-color;
+  transition: 0.6s ease-in-out background-color;
 }
