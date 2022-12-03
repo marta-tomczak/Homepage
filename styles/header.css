@@ -169,4 +169,7 @@
   .footer {
     font-size: 15px;
   }
+  .article__list__item {
+    font-size: 15px;
+  }
 }
