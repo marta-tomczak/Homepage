@@ -26,6 +26,7 @@
 /* NAVIGATION */
 .navigation {
   width: 100%;
+  justify-content: center;
 }
 .navigation__header {
   font-size: 5.8rem;
@@ -114,6 +115,7 @@
   }
   .navigation__link {
     text-align: center;
+    display: flex;
   }
   .navigation__button-wrapper {
     flex-direction: column;
@@ -150,7 +152,6 @@
     border: 0.4px solid rgb(10, 87, 87);
     outline-style: inset;
     outline-color: rgb(10, 87, 87);
-    margin: 20px;
   }
   .clients__opinion {
     display: flex;
@@ -164,5 +165,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .footer {
+    padding: 10px;
   }
 }
