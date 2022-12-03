@@ -100,9 +100,6 @@
     flex-direction: column;
     justify-content: center;
   }
-  .header__container > *:not(:first-child) {
-    margin-top: 0, 5rem;
-  }
   .navigation__header {
     font-size: 3rem;
     text-align: center;
@@ -113,9 +110,6 @@
   }
   .navigation__button-wrapper {
     flex-direction: column;
-  }
-  .navigation__button-wrapper .button:not(:first-child) {
-    margin-top: 0.5rem;
   }
   .article__list__item {
     flex-direction: column;
