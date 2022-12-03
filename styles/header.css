@@ -40,7 +40,6 @@
 .navigation__item {
   padding: 0.5rem;
   display: flex;
-  justify-content: center;
 }
 .navigation__item:not(:first-child) {
   margin-top: 0.5rem;
@@ -141,6 +140,9 @@
   }
   .navigation__link {
     flex-direction: column;
+    justify-content: center;
+  }
+  .navigation__item {
     justify-content: center;
   }
   .button {
