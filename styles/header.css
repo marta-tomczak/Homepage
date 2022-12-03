@@ -47,9 +47,6 @@
 .navigation__button-wrapper {
   display: flex;
 }
-.navigation__button-wrapper .button:not(:first-child) {
-  margin-left: 0.5rem;
-}
 
 /* TABLE */
 .table {
@@ -121,7 +118,6 @@
     flex-direction: column;
   }
   .navigation__button-wrapper .button:not(:first-child) {
-    margin-left: unset;
     margin-top: 0.5rem;
   }
   .article__list__item {
