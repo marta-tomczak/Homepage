@@ -15,9 +15,10 @@
   font-size: 2em;
 }
 .header__image {
+  margin-left: -18px;
   border-radius: 20%;
   font-size: 3rem;
-  padding-top: 38px;
+  padding-top: 77px;
 }
 
 /* NAVIGATION */
