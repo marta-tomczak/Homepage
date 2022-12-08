@@ -20,9 +20,9 @@ const toggleImage = () => {
   const imageIsActive = image.classList.contains("section__image--invisible");
 
   image.classList.toggle("section__image--invisible");
-  imageButton.innerText = imageIsActive
-    ? "Pokaż moje zdjęcie z wakacji w Sienie"
-    : "Ukryj moje zdjęcie z wakacji w Sienie";
+  imageButton.innerText = !imageIsActive
+    ? "Ukryj moje zdjęcie z wakacji w Sienie"
+    : "Pokaż moje zdjęcie z wakacji w Sienie";
 };
 
 const init = () => {
