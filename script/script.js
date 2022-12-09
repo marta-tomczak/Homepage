@@ -12,7 +12,7 @@ const nextStep = (step = 0) => {
   const imageButton = document.querySelector(".js-image-button");
   switch (step) {
     case 0:
-      image.src = "/assets/S.Polo.jpg";
+      image.src = "./assets/S.Polo.jpg";
       imageButton.textContent = "Ukryj zdjęcie.";
       break;
     case 1:
