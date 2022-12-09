@@ -203,4 +203,7 @@
   .flag_italy:hover {
     transform: rotate(20deg);
   }
+  .logos:hover {
+    transform: scale(1.05);
+  }
 }
