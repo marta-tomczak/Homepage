@@ -194,13 +194,13 @@
   .links {
     font-size: 15px;
   }
-  .map {
+  .flag_italy {
     height: 40px;
     width: 40px;
     background-color: rgb(9, 124, 124);
     transition: transform 2s linear;
   }
-  .map:hover {
+  .flag_italy:hover {
     transform: rotate(20deg);
   }
 }
