@@ -72,5 +72,5 @@
   outline-style: inset;
   outline-color: rgb(10, 87, 87);
   margin: 15px;
-  transition: 0.4s ease-in-out background-color linear transition;
+  transition: 0.4s ease-in-out background-color, 0.4s ease-in-out transform;
 }
