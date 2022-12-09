@@ -27,9 +27,9 @@
   padding-top: 40px;
   padding-bottom: 30px;
 }
-.map {
-  height: 80px;
-  width: 80px;
+.boat {
+  height: 120px;
+  width: 120px;
   background-color: rgb(9, 124, 124);
   transition: transform 2s linear;
 }
