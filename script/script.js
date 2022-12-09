@@ -13,15 +13,15 @@ const nextStep = (step = 0) => {
   switch (step) {
     case 0:
       image.src = "/assets/S.Polo.jpg";
-      imageButton.textContent = "Ukryj zdjęcie";
+      imageButton.textContent = "Ukryj zdjęcie.";
       break;
     case 1:
       image.src = "/assets/20220911_122826.jpg";
-      imageButton.textContent = "Pokaż zdjęcie";
+      imageButton.textContent = "Pokaż zdjęcie ze Sieny!";
       image.classList.add("section__image--invisible");
       break;
     case 2:
-      imageButton.textContent = "Pokaż następne zdjęcie";
+      imageButton.textContent = "Pokaż zdjęcie z Wenecji!";
       image.classList.remove("section__image--invisible");
       break;
   }
