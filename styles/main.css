@@ -52,10 +52,13 @@
   text-align: center;
   color: black;
   background-color: rgb(9, 124, 124);
-  padding: 2px;
+  padding: 12px;
   line-height: 1.5;
   font-size: 30px;
-  margin-top: 10px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
 }
 
 .button {

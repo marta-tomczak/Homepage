@@ -13,14 +13,29 @@
 .header__image-wrapper {
   width: 100%;
   font-size: 2em;
+  transition-duration: 3s;
 }
+.header__image-wrapper:hover {
+  width: 100%;
+  font-size: 2em;
+  transform: translateX(-5%);
+}
+
 .header__image {
   border-radius: 20%;
   font-size: 3rem;
   padding-top: 40px;
   padding-bottom: 30px;
 }
-
+.avatar {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(9, 124, 124);
+  transition: 2s;
+}
+.avatar:hover {
+  transform: rotate(20deg);
+}
 /* NAVIGATION */
 .navigation {
   width: 100%;
@@ -165,6 +180,7 @@
   }
   .footer {
     font-size: 15px;
+    display: flex;
   }
   .links {
     font-size: 15px;
