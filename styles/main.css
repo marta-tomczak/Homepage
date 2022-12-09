@@ -18,7 +18,6 @@
 .logos:hover {
   transform: scaleX(1.3) scaleY(1.3);
 }
-
 .logo__down {
   color: black;
   background-color: rgb(8, 168, 168);
@@ -29,7 +28,12 @@
   flex-direction: row;
   justify-content: center;
   font-family: sans-serif;
+  transition: 2s;
 }
+.logos__down:hover {
+  transform: scaleX(1.3) scaleY(1.3);
+}
+
 .icons {
   display: grid;
   grid-template-rows: 100px 200px 300px;
