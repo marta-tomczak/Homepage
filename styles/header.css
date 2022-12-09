@@ -27,13 +27,13 @@
   padding-top: 40px;
   padding-bottom: 30px;
 }
-.avatar {
+.map {
   height: 80px;
   width: 80px;
   background-color: rgb(9, 124, 124);
   transition: 2s;
 }
-.avatar:hover {
+.map:hover {
   transform: rotate(20deg);
 }
 /* NAVIGATION */
@@ -139,6 +139,14 @@
   .header__image {
     width: 100%;
   }
+  .header__image-wrapper {
+    width: 100%;
+    font-size: 2em;
+  }
+  .header__image-wrapper:hover {
+    width: 100%;
+    font-size: 2em;
+  }
   .table-wrapper {
     width: 30%;
   }
@@ -184,5 +192,14 @@
   }
   .links {
     font-size: 15px;
+  }
+  .map {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(9, 124, 124);
+    transition: 2s;
+  }
+  .map:hover {
+    transform: rotate(20deg);
   }
 }
