@@ -13,7 +13,7 @@
 .header__image-wrapper {
   width: 100%;
   font-size: 2em;
-  transition-duration: 3s;
+    transition: transform 2s linear;
 }
 .header__image-wrapper:hover {
   width: 100%;
@@ -31,7 +31,7 @@
   height: 80px;
   width: 80px;
   background-color: rgb(9, 124, 124);
-  transition: 2s;
+    transition: transform 2s linear;
 }
 .map:hover {
   transform: rotate(20deg);
@@ -197,7 +197,7 @@
     height: 40px;
     width: 40px;
     background-color: rgb(9, 124, 124);
-    transition: 2s;
+    transition: transform 2s linear;
   }
   .map:hover {
     transform: rotate(20deg);
