@@ -33,7 +33,6 @@
 .logos__down:hover {
   transform: scale(1.05);
 }
-
 .icons {
   display: grid;
   grid-template-rows: 100px 200px 300px;
