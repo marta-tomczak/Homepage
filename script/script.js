@@ -4,34 +4,38 @@ const welcome = () => {
 
 const toggleBackground = () => {
   const body = document.body;
-  const sienaText = document.querySelector(".js-siena-text");
-  const NewBackground = body.classList.contains("new-background");
   body.classList.toggle("new-background");
 };
 
-/*
-const image = document.querySelector(".header__image");
-image.classList.toggle = "/assets/S.Polo.jpg";
-*/
-
-const toggleImage = () => {
+const nextStep = (step = 0) => {
   const image = document.querySelector(".js-image");
   const imageButton = document.querySelector(".js-image-button");
-  const imageIsActive = image.classList.contains("section__image--invisible");
-
-  image.classList.toggle("section__image--invisible");
-  imageButton.innerText = !imageIsActive
-    ? "Ukryj moje zdjęcie z wakacji w Sienie"
-    : "Pokaż moje zdjęcie z wakacji w Sienie";
+  switch (step) {
+    case 0:
+      image.src = "/assets/S.Polo.jpg";
+      imageButton.textContent = "Ukryj zdjęcie";
+      break;
+    case 1:
+      image.src = "/assets/20220911_122826.jpg";
+      imageButton.textContent = "Pokaż zdjęcie";
+      image.classList.add("section__image--invisible");
+      break;
+    case 2:
+      imageButton.textContent = "Pokaż następne zdjęcie";
+      image.classList.remove("section__image--invisible");
+      break;
+  }
 };
-
 const init = () => {
   const themeNameButton = document.querySelector(".js-theme-name-button");
   const imageButton = document.querySelector(".js-image-button");
-
+  let counter = 0;
   themeNameButton.addEventListener("click", toggleBackground);
 
-  imageButton.addEventListener("click", toggleImage);
+  imageButton.addEventListener("click", () => {
+    nextStep(counter);
+    counter >= 2 ? (counter = 0) : counter++;
+  });
 
   welcome();
 };

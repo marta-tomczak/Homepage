@@ -146,6 +146,7 @@
   .header__image-wrapper:hover {
     width: 100%;
     font-size: 2em;
+    transform: scale(1.05);
   }
   .table-wrapper {
     width: 30%;
@@ -177,6 +178,8 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+    width: 95%;
+    margin: 0 auto;
   }
   .logo__down {
     font-size: 15px;
