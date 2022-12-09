@@ -101,9 +101,6 @@
 .section__image--invisible {
   opacity: 0;
 }
-.text {
-  transition: 0.4s ease-in-out background-color;
-}
 @media (max-width: 600px) {
   .header__container {
     flex-direction: column;
@@ -151,8 +148,8 @@
     border: 0.4px solid rgb(10, 87, 87);
     outline-style: inset;
     outline-color: rgb(10, 87, 87);
-    transition: 0.6s ease-in-out background-color;
   }
+
   .clients__opinion {
     display: flex;
     text-align: center;
