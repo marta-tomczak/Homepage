@@ -191,7 +191,7 @@
   }
   .footer {
     font-size: 15px;
-    display: flex;
+    display: grid;
     justify-content: center;
   }
   .links {
