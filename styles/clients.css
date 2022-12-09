@@ -25,7 +25,7 @@
 }
 
 .clients__opinion:hover {
-  transform: scale(1.03);
+  transform: scaleX(1.04) scaleY(1.04);
   background-color: rgb(9, 128, 128);
 }
 

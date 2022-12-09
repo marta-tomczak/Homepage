@@ -13,7 +13,12 @@
   justify-content: center;
   font-family: sans-serif;
   display: flex;
+  transition: 2s;
 }
+.logos:hover {
+  transform: scaleX(1.3) scaleY(1.3);
+}
+
 .logo__down {
   color: black;
   background-color: rgb(8, 168, 168);
