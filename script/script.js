@@ -16,7 +16,7 @@ const nextStep = (step = 0) => {
       imageButton.textContent = "Ukryj zdjęcie.";
       break;
     case 1:
-      image.src = "/assets/20220911_122826.jpg";
+      image.src = "./assets/20220911_122826.jpg";
       imageButton.textContent = "Pokaż zdjęcie ze Sieny!";
       image.classList.add("section__image--invisible");
       break;
